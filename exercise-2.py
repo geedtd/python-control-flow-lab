@@ -11,7 +11,7 @@
 # print(phrase)
 # while (phrase := input('Please enter a word or phrase: ') != 'quit'):
 #     print(f'What you entered is {len(str(phrase))} characters long')
-
+phrase = ''
 while phrase != 'quit':
     phrase = input('Please enter a word or phrase: ')
     print(f'What you entered is {len(phrase)} characters long')
